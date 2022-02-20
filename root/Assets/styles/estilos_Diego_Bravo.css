@@ -21,3 +21,36 @@ nav>ul>li>a {
 #footer_blog {
 
 }
+section>header {
+    grid-column: span 12;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+} 
+main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+} 
+aside {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+}
