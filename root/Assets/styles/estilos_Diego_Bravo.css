@@ -36,7 +36,7 @@ section>main {
     grid-column: span 8;
 }
 section>aside {
-    rid-column: span 4;
+    grid-column: span 4;
 }
 section>footer {
     grid-column: span 12;
