@@ -17,6 +17,20 @@ nav>ul>li {
 }
 nav>ul>li>a {
     text-decoration: none;
+    color:#fff
+}
+nav>ul>li>a {
+    text-decoration: underline;
+    color:greenyellow
+
+}
+en el de arriba es de mouse ve cssavanzadovideo
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
 }
 #footer_blog {
 
@@ -40,4 +54,17 @@ section>aside {
 }
 section>footer {
     grid-column: span 12;
+}
+nav {
+font-size:1.3rem;
+}
+article>header>hgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+article>header>hgroup>h2 {
+    display: contents flex;
+    align-items: center;
+    poner margen 
 }
