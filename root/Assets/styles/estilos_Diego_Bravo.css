@@ -1,30 +1,33 @@
-body{
+body {
     background-color: black;
     color: #fff;
 }
-article{
+
+article {
     background-color: rgb(44, 43, 43);
 }
-#titulo_del_blog{
+
+#titulo_del_blog {
     text-align: center;
     font-size: 3rem;
 }
-.resaltado {
 
-}
+.resaltado {}
+
 nav>ul>li {
     list-style: none;
 }
+
 nav>ul>li>a {
     text-decoration: none;
-    color:#fff
+    color: #fff
 }
-nav>ul>li>a {
-    text-decoration: underline;
-    color:greenyellow
 
+nav>ul>li>a :hover {
+    text-decoration: underline;
+    color: greenyellow
 }
-en el de arriba es de mouse ve cssavanzadovideo
+
 nav>ul {
     display: flex;
     align-items: center;
@@ -32,9 +35,8 @@ nav>ul {
     border-bottom: 1px solid #fff;
     padding-bottom: 0.5rem;
 }
-#footer_blog {
 
-}
+#footer_blog {}
 
 section {
     display: grid;
@@ -46,25 +48,90 @@ section {
 section>header {
     grid-column: span 12;
 }
+
 section>main {
     grid-column: span 8;
 }
+
 section>aside {
     grid-column: span 4;
 }
+
 section>footer {
     grid-column: span 12;
 }
+
 nav {
-font-size:1.3rem;
+    font-size: 1.3rem;
 }
+
 article>header>hgroup {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 article>header>hgroup>h2 {
     display: contents flex;
     align-items: center;
 }
-    
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+}
+
+article>header>hgroup>h2>img {
+    margin-right: 1rem;
+}
+
+#footer_blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 1.3rem;
+}
+
+#footer_blog div:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+aside>h2 {
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+aside>div :nth-of-type(even) {
+    color: rgb(44, 43, 43);
+}
+
+aside>div>img {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.tarjeta {
+    background-color: black;
+    color: white;
+    width: 350px;
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+.persona {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datos {
+    display: flex;
+}
