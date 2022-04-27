@@ -108,10 +108,11 @@ aside>h2 {
     font-size: 1.3rem;
 }
 
-aside>div :nth-of-type(even) {
+aside div :nth-child(even) {
     color: rgb(44, 43, 43);
+    background-color: #fff;
 }
-aside>div :nth-of-type(odd) {
+aside div :nth-child(odd) {
     color: #fff;
 }
 aside>div>img {
