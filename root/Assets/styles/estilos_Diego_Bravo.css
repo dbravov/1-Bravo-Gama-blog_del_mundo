@@ -12,7 +12,13 @@ section {
 }
 
 main {
-    grid-column: span 8;
+    grid-column: span 12;
+}
+
+@media (min-width: 1024.1px) {
+    main {
+        grid-column: span 8;
+    }
 }
 
 section>header {
@@ -20,7 +26,13 @@ section>header {
 }
 
 aside {
-    grid-column: span 4;
+    grid-column: span 12;
+}
+
+@media (min-width: 1024.1px) {
+    aside {
+        grid-column: span 4;
+    }
 }
 
 footer {
@@ -110,6 +122,12 @@ nav>ul>li>a:hover {
     font-size: 0.9rem;
 }
 
+@media (max-width: 1024.1px) {
+    #footer_blog {
+        grid-column: span 3;
+    }
+}
+
 .ilustracion {
     display: inline-block;
     border: 4px solid #fff;
@@ -139,4 +157,10 @@ aside div {
 
     padding: 0.6rem;
     border-bottom: 1px dashed #fff;
+}
+
+@media (min-width: 1024.1px) and (max-width: 1324.1px) {
+    aside div {
+        flex-direction: column;
+    }
 }
