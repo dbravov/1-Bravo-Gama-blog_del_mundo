@@ -63,6 +63,9 @@ article>header>hgroup>h2>img {
 #titulo_del_blog {
     text-align: center;
     font-size: 3rem;
+    margin-top: 20px;
+    margin: 50px;
+
 }
 
 nav {
@@ -157,6 +160,12 @@ aside div {
 
     padding: 0.6rem;
     border-bottom: 1px dashed #fff;
+}
+
+aside div img {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
 }
 
 @media (min-width: 1024.1px) and (max-width: 1324.1px) {
